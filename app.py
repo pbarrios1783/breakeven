@@ -66,7 +66,7 @@ def show():
     costos_fijos_totales, precio_venta_unitario, costo_variable_unitario, total_cantidad, total_ventas = calculate_current_data(transactions_df)
 
     # Calculadora de punto de equilibrio
-    st.title("Breakeven Calculation")
+    st.title("Breakeven Calculator")
     
      # Botón para regresar al Menú Principal
      #if st.button("Regresar"):
